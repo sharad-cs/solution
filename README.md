@@ -19,4 +19,5 @@ docker container stop 540eb77a98fe
 
 # Run the Docker Container again with port forwording & set the Env Variable CSVSERVER_BORDER=Orange
 docker run -d -p 9393:9300 -v /root/assignment/csvserver/solution/inputFile:/csvserver/inputdata infracloudio/csvserver
+
 docker run -d -p 9393:9300 -e CSVSERVER_BORDER=Orange -v /root/assignment/csvserver/solution/inputFile:/csvserver/inputdata infracloudio/csvserver
