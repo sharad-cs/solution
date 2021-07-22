@@ -24,14 +24,14 @@ docker run -d -p 9393:9300 -e CSVSERVER_BORDER=Orange -v /root/assignment/csvser
 
 Part 2:
 
-#Run the Container using docker-compose as below
+#Run the Container using docker-compose as below which will run the infracloudio/csvserver Container
 
 docker-compose up -d
 
 
 Part 3:
 
-#Run the Container using docker-compose as below
+#Run the Container using docker-compose as below which will run infracloudio/csvserver & prom/prometheus container
 
 docker-compose up -d
 
