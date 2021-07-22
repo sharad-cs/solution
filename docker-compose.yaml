@@ -7,7 +7,6 @@ services:
       - /root/assignment/csvserver/solution/inputFile:/csvserver/inputdata
     environment:
       - CSVSERVER_BORDER=Orange
-
   prometheus:
     image: prom/prometheus
     ports:
